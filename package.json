@@ -6,12 +6,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "ether": "^0.0.9",
+    "ethereum-waffle": "^3.4.4",
+    "hardhat": "^2.9.9",
+    "ipfs-http-client": "^57.0.3",
     "next": "latest",
+    "nprogress": "^0.2.0",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "web3modal": "^1.9.8"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
     "autoprefixer": "^10.4.7",
